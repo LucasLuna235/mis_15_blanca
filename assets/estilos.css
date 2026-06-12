@@ -15,6 +15,12 @@ body{
     font-family:'Montserrat',sans-serif;
 }
 
+.esperamos{
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(119, 117, 117);
+}
+
 /* =========================
    VIDEO HERO
 ========================= */
@@ -68,6 +74,28 @@ body{
     bottom:40px;
     font-size:2rem;
     animation:flotar 2s infinite;
+}
+
+
+.btn_confirmar{
+    border: 1px solid gold;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.btn_confirmar a{
+    color:gold;
+    text-decoration: none;
+}
+
+.btn_confirmar h2:hover{
+    
+    background: gold;
+}
+
+.btn_confirmar a:hover{
+    color:#0d0d0d;
+    
 }
 
 @keyframes flotar{
